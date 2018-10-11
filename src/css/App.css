@@ -1,0 +1,64 @@
+.App {
+  height: 50vh;
+  width: 50vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.screen {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.container, .component {
+  position: relative;
+  width: 100%;
+  transition: all 1.5s ease-in-out;
+}
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.header {
+  height: 20%;
+  background: yellow;
+}
+
+.timer {
+  background: black;
+  text-align: center;
+  position: absolute;
+  width: 20%;
+}
+
+.background {
+  height: 20%;
+  background: green;
+  position: absolute;
+}
+
+.selector {
+  background: blue;
+  height: 5%;
+}
+
+.entertain {
+  background: violet;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.video {
+  width: 100%;
+  background: red;
+}
+
+.scores {
+  width: 20%;
+  background: pink;
+}
