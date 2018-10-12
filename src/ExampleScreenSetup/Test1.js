@@ -4,7 +4,7 @@ import * as ComponentLibrary from '../ComponentLibrary.js';
 const Test1 = (props) => {
   console.log(ComponentLibrary)
   return(
-    <div className="screen">
+    <>
       <ComponentLibrary.Header>
         <ComponentLibrary.BackGround/>
         <ComponentLibrary.Timer timer={props.timer} styles={{height:'50%', background: 'yellow'}}/>
@@ -14,7 +14,7 @@ const Test1 = (props) => {
         <ComponentLibrary.Scores/>
         <ComponentLibrary.Video/>
       </ComponentLibrary.EntertainmentArea>
-    </div>
+    </>
   )
 }
 

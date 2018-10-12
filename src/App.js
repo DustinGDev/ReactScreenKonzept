@@ -23,7 +23,9 @@ class App extends Component {
 
     return (
       <div className="App">
-        <Screen timer={this.state.timer}/>
+        <div className="screen">
+          <Screen timer={this.state.timer}/>
+        </div>
       </div>
     );
   }
